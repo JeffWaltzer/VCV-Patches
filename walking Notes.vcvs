@@ -1,0 +1,136 @@
+{
+  "modules": [
+    {
+      "id": 5397896350045760,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Walk2",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 0.10000000149011612,
+          "id": 0
+        },
+        {
+          "value": 0.10000000149011612,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        }
+      ],
+      "leftModuleId": 8006849743808789,
+      "rightModuleId": 6850386183502540,
+      "data": {
+        "zoom_out": false,
+        "grid": true,
+        "color": 0
+      },
+      "pos": [
+        -6,
+        2
+      ]
+    },
+    {
+      "id": 6850386183502540,
+      "plugin": "Fundamental",
+      "model": "Quantizer",
+      "version": "2.6.4",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 5397896350045760,
+      "rightModuleId": 6141530014941750,
+      "data": {
+        "enabledNotes": [
+          true,
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ]
+      },
+      "pos": [
+        8,
+        2
+      ]
+    },
+    {
+      "id": 6141530014941750,
+      "plugin": "Fundamental",
+      "model": "Quantizer",
+      "version": "2.6.4",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 6850386183502540,
+      "data": {
+        "enabledNotes": [
+          true,
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ]
+      },
+      "pos": [
+        11,
+        2
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 3799205654134651,
+      "outputModuleId": 5397896350045760,
+      "outputId": 0,
+      "inputModuleId": 6850386183502540,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 1338982624106026,
+      "outputModuleId": 5397896350045760,
+      "outputId": 1,
+      "inputModuleId": 6141530014941750,
+      "inputId": 0,
+      "color": "#ffb437"
+    }
+  ]
+}

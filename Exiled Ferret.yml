@@ -1,0 +1,495 @@
+PatchData:
+  patch_name: Exiled Ferret
+  description: Patch Description
+  module_slugs:
+    0: '4msCompany:HubMedium'
+    1: 'DrumKit:Gnome'
+    2: 'Bogaudio:Bogaudio-Mix8'
+    3: 'Bogaudio:Bogaudio-Walk2'
+    4: 'SeasideModular:Proteus'
+    5: 'AudibleInstruments:Elements'
+    6: 'SeasideModular:Proteus'
+    7: 'AudibleInstruments:Rings'
+    8: 'Bogaudio:Bogaudio-Walk2'
+  int_cables:
+    - out:
+        module_id: 1
+        jack_id: 2
+      ins:
+        - module_id: 6
+          jack_id: 8
+      color: 61865
+    - out:
+        module_id: 7
+        jack_id: 0
+      ins:
+        - module_id: 2
+          jack_id: 2
+      color: 1453
+    - out:
+        module_id: 7
+        jack_id: 1
+      ins:
+        - module_id: 2
+          jack_id: 5
+      color: 13501
+    - out:
+        module_id: 6
+        jack_id: 1
+      ins:
+        - module_id: 7
+          jack_id: 5
+      color: 1453
+    - out:
+        module_id: 8
+        jack_id: 0
+      ins:
+        - module_id: 7
+          jack_id: 0
+      color: 13501
+    - out:
+        module_id: 8
+        jack_id: 1
+      ins:
+        - module_id: 7
+          jack_id: 4
+      color: 35419
+    - out:
+        module_id: 6
+        jack_id: 0
+      ins:
+        - module_id: 7
+          jack_id: 6
+      color: 64934
+    - out:
+        module_id: 3
+        jack_id: 0
+      ins:
+        - module_id: 8
+          jack_id: 2
+      color: 61865
+    - out:
+        module_id: 3
+        jack_id: 1
+      ins:
+        - module_id: 8
+          jack_id: 5
+      color: 1453
+    - out:
+        module_id: 3
+        jack_id: 2
+      ins:
+        - module_id: 7
+          jack_id: 2
+      color: 1453
+    - out:
+        module_id: 8
+        jack_id: 2
+      ins:
+        - module_id: 7
+          jack_id: 3
+      color: 13501
+    - out:
+        module_id: 1
+        jack_id: 3
+      ins:
+        - module_id: 4
+          jack_id: 8
+      color: 35419
+    - out:
+        module_id: 4
+        jack_id: 0
+      ins:
+        - module_id: 5
+          jack_id: 0
+      color: 61865
+    - out:
+        module_id: 4
+        jack_id: 1
+      ins:
+        - module_id: 5
+          jack_id: 2
+      color: 64934
+    - out:
+        module_id: 5
+        jack_id: 0
+      ins:
+        - module_id: 2
+          jack_id: 8
+      color: 1453
+    - out:
+        module_id: 5
+        jack_id: 1
+      ins:
+        - module_id: 2
+          jack_id: 11
+      color: 35419
+  mapped_ins: []
+  mapped_outs: []
+  static_knobs:
+    - module_id: 2
+      param_id: 0
+      value: 0.90909094
+    - module_id: 2
+      param_id: 1
+      value: 0
+    - module_id: 2
+      param_id: 2
+      value: 0.5
+    - module_id: 2
+      param_id: 3
+      value: 0.90909094
+    - module_id: 2
+      param_id: 4
+      value: 0
+    - module_id: 2
+      param_id: 5
+      value: 0.5
+    - module_id: 2
+      param_id: 6
+      value: 0.8200915
+    - module_id: 2
+      param_id: 7
+      value: 0
+    - module_id: 2
+      param_id: 8
+      value: 0.5
+    - module_id: 2
+      param_id: 9
+      value: 0.8160915
+    - module_id: 2
+      param_id: 10
+      value: 0
+    - module_id: 2
+      param_id: 11
+      value: 0.5
+    - module_id: 2
+      param_id: 12
+      value: 0.90909094
+    - module_id: 2
+      param_id: 13
+      value: 0
+    - module_id: 2
+      param_id: 14
+      value: 0.5
+    - module_id: 2
+      param_id: 15
+      value: 0.90909094
+    - module_id: 2
+      param_id: 16
+      value: 0
+    - module_id: 2
+      param_id: 17
+      value: 0.5
+    - module_id: 2
+      param_id: 18
+      value: 0.90909094
+    - module_id: 2
+      param_id: 19
+      value: 0
+    - module_id: 2
+      param_id: 20
+      value: 0.5
+    - module_id: 2
+      param_id: 21
+      value: 0.90909094
+    - module_id: 2
+      param_id: 22
+      value: 0
+    - module_id: 2
+      param_id: 23
+      value: 0.5
+    - module_id: 2
+      param_id: 24
+      value: 0.90909094
+    - module_id: 2
+      param_id: 25
+      value: 0
+    - module_id: 2
+      param_id: 26
+      value: 0
+    - module_id: 6
+      param_id: 0
+      value: 0.48387095
+    - module_id: 6
+      param_id: 1
+      value: 0.4
+    - module_id: 6
+      param_id: 2
+      value: 0.18367347
+    - module_id: 6
+      param_id: 3
+      value: 0.22168745
+    - module_id: 6
+      param_id: 4
+      value: 0.65829146
+    - module_id: 6
+      param_id: 5
+      value: 0.06
+    - module_id: 6
+      param_id: 6
+      value: 0.22
+    - module_id: 6
+      param_id: 7
+      value: 0
+    - module_id: 6
+      param_id: 8
+      value: 0
+    - module_id: 6
+      param_id: 9
+      value: 0
+    - module_id: 1
+      param_id: 0
+      value: 0.5
+    - module_id: 1
+      param_id: 1
+      value: 0.5
+    - module_id: 1
+      param_id: 2
+      value: 0
+    - module_id: 1
+      param_id: 3
+      value: 0
+    - module_id: 7
+      param_id: 0
+      value: 0
+    - module_id: 7
+      param_id: 1
+      value: 0
+    - module_id: 7
+      param_id: 2
+      value: 0.5
+    - module_id: 7
+      param_id: 3
+      value: 0.6638574
+    - module_id: 7
+      param_id: 4
+      value: 0.5
+    - module_id: 7
+      param_id: 5
+      value: 0.37831414
+    - module_id: 7
+      param_id: 6
+      value: 0.19638614
+    - module_id: 7
+      param_id: 7
+      value: 0.82933295
+    - module_id: 7
+      param_id: 8
+      value: 0.8186666
+    - module_id: 7
+      param_id: 9
+      value: 0.84266627
+    - module_id: 7
+      param_id: 10
+      value: 0.8573329
+    - module_id: 7
+      param_id: 11
+      value: 0.5
+    - module_id: 8
+      param_id: 0
+      value: 0.32168663
+    - module_id: 8
+      param_id: 1
+      value: 0.3120481
+    - module_id: 8
+      param_id: 2
+      value: 0.5
+    - module_id: 8
+      param_id: 3
+      value: 0.5
+    - module_id: 8
+      param_id: 4
+      value: 1
+    - module_id: 8
+      param_id: 5
+      value: 1
+    - module_id: 8
+      param_id: 6
+      value: 0
+    - module_id: 3
+      param_id: 0
+      value: 0.2867469
+    - module_id: 3
+      param_id: 1
+      value: 0.3108433
+    - module_id: 3
+      param_id: 2
+      value: 0.5
+    - module_id: 3
+      param_id: 3
+      value: 0.5
+    - module_id: 3
+      param_id: 4
+      value: 1
+    - module_id: 3
+      param_id: 5
+      value: 1
+    - module_id: 3
+      param_id: 6
+      value: 0
+    - module_id: 4
+      param_id: 0
+      value: 0.61290324
+    - module_id: 4
+      param_id: 1
+      value: 0.4
+    - module_id: 4
+      param_id: 2
+      value: 0.18367347
+    - module_id: 4
+      param_id: 3
+      value: 0.22168745
+    - module_id: 4
+      param_id: 4
+      value: 0.65829146
+    - module_id: 4
+      param_id: 5
+      value: 0.06
+    - module_id: 4
+      param_id: 6
+      value: 0.22
+    - module_id: 4
+      param_id: 7
+      value: 0
+    - module_id: 4
+      param_id: 8
+      value: 0
+    - module_id: 4
+      param_id: 9
+      value: 0
+    - module_id: 5
+      param_id: 0
+      value: 1
+    - module_id: 5
+      param_id: 1
+      value: 0
+    - module_id: 5
+      param_id: 2
+      value: 0
+    - module_id: 5
+      param_id: 3
+      value: 0.88192946
+    - module_id: 5
+      param_id: 4
+      value: 0.5
+    - module_id: 5
+      param_id: 5
+      value: 0.5
+    - module_id: 5
+      param_id: 6
+      value: 0.5
+    - module_id: 5
+      param_id: 7
+      value: 0.5
+    - module_id: 5
+      param_id: 8
+      value: 0.5
+    - module_id: 5
+      param_id: 9
+      value: 0.5
+    - module_id: 5
+      param_id: 10
+      value: 0.5
+    - module_id: 5
+      param_id: 11
+      value: 0.5
+    - module_id: 5
+      param_id: 12
+      value: 0.5
+    - module_id: 5
+      param_id: 13
+      value: 0.5
+    - module_id: 5
+      param_id: 14
+      value: 0.5
+    - module_id: 5
+      param_id: 15
+      value: 0.5
+    - module_id: 5
+      param_id: 16
+      value: 0
+    - module_id: 5
+      param_id: 17
+      value: 0.5
+    - module_id: 5
+      param_id: 18
+      value: 0.5
+    - module_id: 5
+      param_id: 19
+      value: 0.5
+    - module_id: 5
+      param_id: 20
+      value: 0.5
+    - module_id: 5
+      param_id: 21
+      value: 0.5
+    - module_id: 5
+      param_id: 22
+      value: 0.5
+    - module_id: 5
+      param_id: 23
+      value: 0.5
+    - module_id: 5
+      param_id: 24
+      value: 0.5
+    - module_id: 5
+      param_id: 25
+      value: 0.5
+    - module_id: 5
+      param_id: 26
+      value: 0.5
+    - module_id: 5
+      param_id: 27
+      value: 0
+  mapped_knobs:
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+  midi_maps:
+    name: ''
+    set: []
+  midi_poly_num: 1
+  midi_poly_mode: 0
+  midi_pitchwheel_range: 0
+  mapped_lights: []
+  vcvModuleStates:
+    - module_id: 2
+      data: |-
+        {"linear_cv":false,"dim_decibels":12.0,"poly_channel_offset":-1}
+    - module_id: 6
+      data: |-
+        {"moduleVersion":2,"sequence":[65,67,63,70,70,67,60,60,60,63,65,63,63,65,65,63,60,70,70,63,60,60,60,60,60,58,60,63,65,60,65,60],"restorder":[4,7,12,14,3,0,8,11,2,6,1,5,9,10,13,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"octaveOffset":0,"repetitionCount":6,"mutate_octave_option":0,"lock_option":0,"sequenceLength":16}
+    - module_id: 1
+      data: |-
+        {"running":true}
+    - module_id: 7
+      data: |-
+        {"polyphony":2,"model":2,"easterEgg":false}
+    - module_id: 8
+      data: |-
+        {"zoom_out":false,"grid":true,"color":0}
+    - module_id: 3
+      data: |-
+        {"zoom_out":false,"grid":true,"color":0}
+    - module_id: 4
+      data: |-
+        {"moduleVersion":2,"sequence":[63,63,63,60,63,65,67,65,67,65,63,60,65,67,67,70,70,67,70,67,60,65,65,63,65,67,67,60,67,65,63,60],"restorder":[1,0,6,8,15,10,5,4,11,16,18,9,14,13,7,3,17,2,12,19,0,0,0,0,0,0,0,0,0,0,0,0],"octaveOffset":0,"repetitionCount":1,"mutate_octave_option":0,"lock_option":0,"sequenceLength":20}
+    - module_id: 5
+      data: |-
+        {"model":2}
+  suggested_samplerate: 0
+  suggested_blocksize: 0

@@ -1,0 +1,931 @@
+PatchData:
+  patch_name: Zygophone
+  description: 'A self-playing, futuristic soundscape that mimics a robotic music box. The patch uses mathematical rhythms to trigger organic sounds reminiscent of struck glass, metal, and wood. These tones are processed through a large reverb to create the atmosphere of'
+  module_slugs:
+    0: '4msCompany:HubMedium'
+    1: 'Autinn:Mixer6'
+    2: 'CosineKitty-Sapphire:Galaxy'
+    3: 'Valley:Plateau'
+    4: 'Geodesics:Energy'
+    5: 'DrumKit:Gnome'
+    6: 'MADZINE:EuclideanRhythm'
+    7: 'CosineKitty-Sapphire:Frolic'
+    8: 'AmalgamatedHarmonics:Galaxy'
+    9: 'Geodesics:Energy'
+    10: 'Bogaudio:Bogaudio-ADSR'
+    11: 'CosineKitty-Sapphire:Glee'
+    12: 'AudibleInstruments:Rings'
+    13: 'Fundamental:8vert'
+    14: 'Fundamental:Quantizer'
+    15: 'CosineKitty-Sapphire:Glee'
+    16: 'AudibleInstruments:Rings'
+  int_cables:
+    - out:
+        module_id: 3
+        jack_id: 0
+      ins:
+        - module_id: 1
+          jack_id: 6
+      color: 35419
+    - out:
+        module_id: 3
+        jack_id: 1
+      ins:
+        - module_id: 1
+          jack_id: 7
+      color: 61865
+    - out:
+        module_id: 2
+        jack_id: 0
+      ins:
+        - module_id: 1
+          jack_id: 8
+      color: 64934
+    - out:
+        module_id: 2
+        jack_id: 1
+      ins:
+        - module_id: 1
+          jack_id: 9
+      color: 1453
+    - out:
+        module_id: 1
+        jack_id: 2
+      ins:
+        - module_id: 3
+          jack_id: 0
+      color: 64934
+    - out:
+        module_id: 1
+        jack_id: 3
+      ins:
+        - module_id: 2
+          jack_id: 0
+      color: 61865
+    - out:
+        module_id: 5
+        jack_id: 4
+      ins:
+        - module_id: 6
+          jack_id: 0
+      color: 13501
+    - out:
+        module_id: 6
+        jack_id: 0
+      ins:
+        - module_id: 8
+          jack_id: 0
+        - module_id: 12
+          jack_id: 5
+      color: 35419
+    - out:
+        module_id: 8
+        jack_id: 0
+      ins:
+        - module_id: 9
+          jack_id: 2
+        - module_id: 12
+          jack_id: 6
+        - module_id: 13
+          jack_id: 0
+      color: 61865
+    - out:
+        module_id: 9
+        jack_id: 0
+      ins:
+        - module_id: 1
+          jack_id: 0
+      color: 64934
+    - out:
+        module_id: 6
+        jack_id: 1
+      ins:
+        - module_id: 10
+          jack_id: 0
+      color: 13501
+    - out:
+        module_id: 10
+        jack_id: 0
+      ins:
+        - module_id: 9
+          jack_id: 3
+      color: 35419
+    - out:
+        module_id: 12
+        jack_id: 0
+      ins:
+        - module_id: 1
+          jack_id: 1
+      color: 1453
+    - out:
+        module_id: 12
+        jack_id: 1
+      ins:
+        - module_id: 1
+          jack_id: 2
+      color: 13501
+    - out:
+        module_id: 11
+        jack_id: 0
+      ins:
+        - module_id: 12
+          jack_id: 0
+      color: 35419
+    - out:
+        module_id: 11
+        jack_id: 1
+      ins:
+        - module_id: 12
+          jack_id: 3
+      color: 61865
+    - out:
+        module_id: 11
+        jack_id: 2
+      ins:
+        - module_id: 12
+          jack_id: 4
+      color: 64934
+    - out:
+        module_id: 16
+        jack_id: 0
+      ins:
+        - module_id: 1
+          jack_id: 3
+      color: 35419
+    - out:
+        module_id: 16
+        jack_id: 1
+      ins:
+        - module_id: 1
+          jack_id: 4
+      color: 61865
+    - out:
+        module_id: 14
+        jack_id: 0
+      ins:
+        - module_id: 16
+          jack_id: 6
+        - module_id: 4
+          jack_id: 2
+      color: 64934
+    - out:
+        module_id: 15
+        jack_id: 0
+      ins:
+        - module_id: 16
+          jack_id: 0
+      color: 1453
+    - out:
+        module_id: 15
+        jack_id: 1
+      ins:
+        - module_id: 16
+          jack_id: 3
+      color: 35419
+    - out:
+        module_id: 15
+        jack_id: 2
+      ins:
+        - module_id: 16
+          jack_id: 4
+      color: 61865
+    - out:
+        module_id: 13
+        jack_id: 0
+      ins:
+        - module_id: 14
+          jack_id: 0
+      color: 64934
+    - out:
+        module_id: 4
+        jack_id: 0
+      ins:
+        - module_id: 1
+          jack_id: 5
+      color: 35419
+    - out:
+        module_id: 7
+        jack_id: 3
+      ins:
+        - module_id: 8
+          jack_id: 1
+      color: 64934
+  mapped_ins: []
+  mapped_outs:
+    - panel_jack_id: 0
+      out:
+        module_id: 1
+        jack_id: 0
+    - panel_jack_id: 1
+      out:
+        module_id: 1
+        jack_id: 1
+  static_knobs:
+    - module_id: 3
+      param_id: 0
+      value: 0.4922078
+    - module_id: 3
+      param_id: 1
+      value: 0.6090908
+    - module_id: 3
+      param_id: 2
+      value: 0
+    - module_id: 3
+      param_id: 3
+      value: 1
+    - module_id: 3
+      param_id: 4
+      value: 1
+    - module_id: 3
+      param_id: 5
+      value: 0.5558443
+    - module_id: 3
+      param_id: 6
+      value: 1
+    - module_id: 3
+      param_id: 7
+      value: 0.6194804
+    - module_id: 3
+      param_id: 8
+      value: 1
+    - module_id: 3
+      param_id: 9
+      value: 1
+    - module_id: 3
+      param_id: 10
+      value: 0
+    - module_id: 3
+      param_id: 11
+      value: 0.5
+    - module_id: 3
+      param_id: 12
+      value: 0.03125
+    - module_id: 3
+      param_id: 13
+      value: 0
+    - module_id: 3
+      param_id: 14
+      value: 0
+    - module_id: 3
+      param_id: 15
+      value: 0
+    - module_id: 3
+      param_id: 16
+      value: 0
+    - module_id: 3
+      param_id: 17
+      value: 0.5
+    - module_id: 3
+      param_id: 18
+      value: 0.5
+    - module_id: 3
+      param_id: 19
+      value: 0.5
+    - module_id: 3
+      param_id: 20
+      value: 0.5
+    - module_id: 3
+      param_id: 21
+      value: 0.5
+    - module_id: 3
+      param_id: 22
+      value: 0.5
+    - module_id: 3
+      param_id: 23
+      value: 0.5
+    - module_id: 3
+      param_id: 24
+      value: 0.5
+    - module_id: 3
+      param_id: 25
+      value: 0.5
+    - module_id: 3
+      param_id: 26
+      value: 0.5
+    - module_id: 3
+      param_id: 27
+      value: 0.5
+    - module_id: 3
+      param_id: 28
+      value: 0.5
+    - module_id: 3
+      param_id: 29
+      value: 0
+    - module_id: 3
+      param_id: 30
+      value: 1
+    - module_id: 1
+      param_id: 0
+      value: 1
+    - module_id: 1
+      param_id: 1
+      value: 1
+    - module_id: 1
+      param_id: 2
+      value: 1
+    - module_id: 1
+      param_id: 3
+      value: 1
+    - module_id: 1
+      param_id: 4
+      value: 1
+    - module_id: 1
+      param_id: 5
+      value: 1
+    - module_id: 1
+      param_id: 6
+      value: 1
+    - module_id: 1
+      param_id: 7
+      value: 1
+    - module_id: 1
+      param_id: 8
+      value: 1
+    - module_id: 1
+      param_id: 9
+      value: 1
+    - module_id: 1
+      param_id: 10
+      value: 1
+    - module_id: 1
+      param_id: 11
+      value: 1
+    - module_id: 1
+      param_id: 12
+      value: 1
+    - module_id: 1
+      param_id: 13
+      value: 1
+    - module_id: 1
+      param_id: 14
+      value: 1
+    - module_id: 1
+      param_id: 15
+      value: 1
+    - module_id: 1
+      param_id: 16
+      value: 1
+    - module_id: 1
+      param_id: 17
+      value: 1
+    - module_id: 1
+      param_id: 18
+      value: 0.5987954
+    - module_id: 1
+      param_id: 19
+      value: 0.22771093
+    - module_id: 1
+      param_id: 20
+      value: 0.27710888
+    - module_id: 1
+      param_id: 21
+      value: 0.27951816
+    - module_id: 1
+      param_id: 22
+      value: 0.5493977
+    - module_id: 1
+      param_id: 23
+      value: 0.13373491
+    - module_id: 1
+      param_id: 24
+      value: 0.21807222
+    - module_id: 1
+      param_id: 25
+      value: 0.8084339
+    - module_id: 1
+      param_id: 26
+      value: 0.32530117
+    - module_id: 1
+      param_id: 27
+      value: 0.5783133
+    - module_id: 1
+      param_id: 28
+      value: 0.8795182
+    - module_id: 1
+      param_id: 29
+      value: 0.5
+    - module_id: 1
+      param_id: 30
+      value: 0
+    - module_id: 1
+      param_id: 31
+      value: 0
+    - module_id: 1
+      param_id: 32
+      value: 0
+    - module_id: 1
+      param_id: 33
+      value: 0.1807229
+    - module_id: 1
+      param_id: 34
+      value: 0.13734935
+    - module_id: 1
+      param_id: 35
+      value: 0
+    - module_id: 1
+      param_id: 36
+      value: 0.16385542
+    - module_id: 1
+      param_id: 37
+      value: 0.14939754
+    - module_id: 1
+      param_id: 38
+      value: 0.18795177
+    - module_id: 1
+      param_id: 39
+      value: 0.25662646
+    - module_id: 1
+      param_id: 40
+      value: 0.239759
+    - module_id: 1
+      param_id: 41
+      value: 0.16626509
+    - module_id: 1
+      param_id: 42
+      value: 0.25060248
+    - module_id: 1
+      param_id: 43
+      value: 0.6686751
+    - module_id: 1
+      param_id: 44
+      value: 0.32048196
+    - module_id: 1
+      param_id: 45
+      value: 0
+    - module_id: 1
+      param_id: 46
+      value: 0
+    - module_id: 1
+      param_id: 47
+      value: 0
+    - module_id: 1
+      param_id: 48
+      value: 0
+    - module_id: 1
+      param_id: 49
+      value: 0
+    - module_id: 1
+      param_id: 50
+      value: 0
+    - module_id: 2
+      param_id: 0
+      value: 0.5
+    - module_id: 2
+      param_id: 1
+      value: 0.5
+    - module_id: 2
+      param_id: 2
+      value: 0.70361483
+    - module_id: 2
+      param_id: 3
+      value: 0.5
+    - module_id: 2
+      param_id: 4
+      value: 0.5
+    - module_id: 2
+      param_id: 5
+      value: 0.5
+    - module_id: 2
+      param_id: 6
+      value: 0.28433743
+    - module_id: 2
+      param_id: 7
+      value: 0.5
+    - module_id: 2
+      param_id: 8
+      value: 0.29638565
+    - module_id: 2
+      param_id: 9
+      value: 0.5
+    - module_id: 2
+      param_id: 10
+      value: 0
+    - module_id: 2
+      param_id: 11
+      value: 0
+    - module_id: 2
+      param_id: 12
+      value: 0
+    - module_id: 8
+      param_id: 0
+      value: 0
+    - module_id: 8
+      param_id: 1
+      value: 0
+    - module_id: 8
+      param_id: 2
+      value: 0
+    - module_id: 9
+      param_id: 0
+      value: 0
+    - module_id: 9
+      param_id: 1
+      value: 0
+    - module_id: 9
+      param_id: 2
+      value: 0
+    - module_id: 9
+      param_id: 3
+      value: 0
+    - module_id: 9
+      param_id: 4
+      value: 0
+    - module_id: 9
+      param_id: 5
+      value: 0.5
+    - module_id: 9
+      param_id: 6
+      value: 0.5
+    - module_id: 9
+      param_id: 7
+      value: 0
+    - module_id: 9
+      param_id: 8
+      value: 0
+    - module_id: 9
+      param_id: 9
+      value: 0
+    - module_id: 6
+      param_id: 0
+      value: 0
+    - module_id: 6
+      param_id: 1
+      value: 0.33333334
+    - module_id: 6
+      param_id: 2
+      value: 0.61290324
+    - module_id: 6
+      param_id: 3
+      value: 0.88599986
+    - module_id: 6
+      param_id: 4
+      value: 0
+    - module_id: 6
+      param_id: 5
+      value: 0.5
+    - module_id: 6
+      param_id: 6
+      value: 0.5
+    - module_id: 6
+      param_id: 7
+      value: 0.5
+    - module_id: 6
+      param_id: 8
+      value: 0.16666667
+    - module_id: 6
+      param_id: 9
+      value: 0.7419355
+    - module_id: 6
+      param_id: 10
+      value: 0.60399985
+    - module_id: 6
+      param_id: 11
+      value: 0
+    - module_id: 6
+      param_id: 12
+      value: 0.5
+    - module_id: 6
+      param_id: 13
+      value: 0.5
+    - module_id: 6
+      param_id: 14
+      value: 0.5
+    - module_id: 6
+      param_id: 15
+      value: 0.8333333
+    - module_id: 6
+      param_id: 16
+      value: 0.48387095
+    - module_id: 6
+      param_id: 17
+      value: 0.25
+    - module_id: 6
+      param_id: 18
+      value: 0
+    - module_id: 6
+      param_id: 19
+      value: 0.5
+    - module_id: 6
+      param_id: 20
+      value: 0.5
+    - module_id: 6
+      param_id: 21
+      value: 0.5
+    - module_id: 5
+      param_id: 0
+      value: 0.5
+    - module_id: 5
+      param_id: 1
+      value: 0.5
+    - module_id: 5
+      param_id: 2
+      value: 0
+    - module_id: 5
+      param_id: 3
+      value: 0
+    - module_id: 10
+      param_id: 0
+      value: 0.20407157
+    - module_id: 10
+      param_id: 1
+      value: 0.31622776
+    - module_id: 10
+      param_id: 2
+      value: 0.8301204
+    - module_id: 10
+      param_id: 3
+      value: 0.65478206
+    - module_id: 10
+      param_id: 4
+      value: 0
+    - module_id: 12
+      param_id: 0
+      value: 0
+    - module_id: 12
+      param_id: 1
+      value: 0
+    - module_id: 12
+      param_id: 2
+      value: 0.5
+    - module_id: 12
+      param_id: 3
+      value: 0.5
+    - module_id: 12
+      param_id: 4
+      value: 0.5
+    - module_id: 12
+      param_id: 5
+      value: 0.5
+    - module_id: 12
+      param_id: 6
+      value: 0.5
+    - module_id: 12
+      param_id: 7
+      value: 1
+    - module_id: 12
+      param_id: 8
+      value: 1
+    - module_id: 12
+      param_id: 9
+      value: 1
+    - module_id: 12
+      param_id: 10
+      value: 1
+    - module_id: 12
+      param_id: 11
+      value: 1
+    - module_id: 11
+      param_id: 0
+      value: 0.048192877
+    - module_id: 11
+      param_id: 1
+      value: 0.5
+    - module_id: 11
+      param_id: 2
+      value: 0.5
+    - module_id: 11
+      param_id: 3
+      value: 0.5
+    - module_id: 11
+      param_id: 4
+      value: 0
+    - module_id: 11
+      param_id: 5
+      value: 0
+    - module_id: 11
+      param_id: 6
+      value: 0
+    - module_id: 11
+      param_id: 7
+      value: 0
+    - module_id: 11
+      param_id: 8
+      value: 0
+    - module_id: 11
+      param_id: 9
+      value: 0
+    - module_id: 15
+      param_id: 0
+      value: 0.06265064
+    - module_id: 15
+      param_id: 1
+      value: 0.5
+    - module_id: 15
+      param_id: 2
+      value: 0.5
+    - module_id: 15
+      param_id: 3
+      value: 0.5
+    - module_id: 15
+      param_id: 4
+      value: 0
+    - module_id: 15
+      param_id: 5
+      value: 0
+    - module_id: 15
+      param_id: 6
+      value: 0
+    - module_id: 15
+      param_id: 7
+      value: 0
+    - module_id: 15
+      param_id: 8
+      value: 0
+    - module_id: 15
+      param_id: 9
+      value: 0
+    - module_id: 16
+      param_id: 0
+      value: 0
+    - module_id: 16
+      param_id: 1
+      value: 0
+    - module_id: 16
+      param_id: 2
+      value: 0.5
+    - module_id: 16
+      param_id: 3
+      value: 0.5
+    - module_id: 16
+      param_id: 4
+      value: 0.5
+    - module_id: 16
+      param_id: 5
+      value: 0.5
+    - module_id: 16
+      param_id: 6
+      value: 0.5
+    - module_id: 16
+      param_id: 7
+      value: 1
+    - module_id: 16
+      param_id: 8
+      value: 1
+    - module_id: 16
+      param_id: 9
+      value: 1
+    - module_id: 16
+      param_id: 10
+      value: 1
+    - module_id: 16
+      param_id: 11
+      value: 1
+    - module_id: 14
+      param_id: 0
+      value: 0.5
+    - module_id: 13
+      param_id: 0
+      value: 0
+    - module_id: 13
+      param_id: 1
+      value: 0.5
+    - module_id: 13
+      param_id: 2
+      value: 0.5
+    - module_id: 13
+      param_id: 3
+      value: 0.5
+    - module_id: 13
+      param_id: 4
+      value: 0.5
+    - module_id: 13
+      param_id: 5
+      value: 0.5
+    - module_id: 13
+      param_id: 6
+      value: 0.5
+    - module_id: 13
+      param_id: 7
+      value: 0.5
+    - module_id: 4
+      param_id: 0
+      value: 0
+    - module_id: 4
+      param_id: 1
+      value: 0
+    - module_id: 4
+      param_id: 2
+      value: 0
+    - module_id: 4
+      param_id: 3
+      value: 0
+    - module_id: 4
+      param_id: 4
+      value: 0
+    - module_id: 4
+      param_id: 5
+      value: 0.5
+    - module_id: 4
+      param_id: 6
+      value: 0.5
+    - module_id: 4
+      param_id: 7
+      value: 0
+    - module_id: 4
+      param_id: 8
+      value: 0
+    - module_id: 4
+      param_id: 9
+      value: 0
+    - module_id: 7
+      param_id: 0
+      value: 0.083132505
+    - module_id: 7
+      param_id: 1
+      value: 0.5
+    - module_id: 7
+      param_id: 2
+      value: 0.5
+    - module_id: 7
+      param_id: 3
+      value: 0.5
+    - module_id: 7
+      param_id: 4
+      value: 0
+    - module_id: 7
+      param_id: 5
+      value: 0
+    - module_id: 7
+      param_id: 6
+      value: 0
+    - module_id: 7
+      param_id: 7
+      value: 0
+    - module_id: 7
+      param_id: 8
+      value: 0
+    - module_id: 7
+      param_id: 9
+      value: 0
+  mapped_knobs:
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+  midi_maps:
+    name: ''
+    set: []
+  midi_poly_num: 1
+  midi_poly_mode: 0
+  midi_pitchwheel_range: -1
+  mapped_lights: []
+  vcvModuleStates:
+    - module_id: 3
+      data: |-
+        {"frozen":false,"freezeToggle":false,"panelStyle":0,"tuned":0,"diffuseInput":1,"preDelayCVSens":0,"inputSensitivity":0,"outputSaturation":0}
+    - module_id: 1
+      data: |-
+        {"mute_solo":[0,0,0,0,0,0]}
+    - module_id: 2
+      data: |-
+        {"lowSensitivityAttenuverters":[],"voltageFlippedOutputPorts":[],"enableStereoSplitter":false,"enableStereoMerge":false,"neonMode":false}
+    - module_id: 8
+      data: |-
+        {"offset":12,"mode":1,"inversions":0,"voltscale":0}
+    - module_id: 9
+      data: |-
+        {"panelTheme":2,"oscM_phase":1179378432,"oscC_phase":1236033024,"osc1M_phase":982445648,"osc1C_phase":1682889520,"osc2M_phase":778575224,"osc2C_phase":1753291192,"osc3M_phase":4076909008,"osc3C_phase":3824542672,"osc4M_phase":2404826272,"osc4C_phase":1882897184,"osc5M_phase":428041960,"osc5C_phase":2842041480,"osc6M_phase":0,"osc6C_phase":0,"osc7M_phase":0,"osc7C_phase":0,"osc8M_phase":0,"osc8C_phase":0,"osc9M_phase":0,"osc9C_phase":0,"osc10M_phase":0,"osc10C_phase":0,"osc11M_phase":0,"osc11C_phase":0,"osc12M_phase":0,"osc12C_phase":0,"osc13M_phase":0,"osc13C_phase":0,"osc14M_phase":0,"osc14C_phase":0,"osc15M_phase":0,"osc15C_phase":0,"routing":1,"planck0":0,"planck1":0,"modtype0":1,"modtype1":1,"cross":0}
+    - module_id: 6
+      data: |-
+        {"panelTheme":0}
+    - module_id: 5
+      data: |-
+        {"running":true}
+    - module_id: 10
+      data: |-
+        {"invert":1.0}
+    - module_id: 12
+      data: |-
+        {"polyphony":2,"model":3,"easterEgg":false}
+    - module_id: 11
+      data: |-
+        {"lowSensitivityAttenuverters":[],"voltageFlippedOutputPorts":[],"neonMode":false,"chaosMode":0,"flashPanelOnOverflow":true,"compressorLimit":0.0,"xVoltageScale":1.0,"yVoltageScale":1.0,"zVoltageScale":1.0,"oversampling":1,"turboMode":false,"memory":[{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003}]}
+    - module_id: 15
+      data: |-
+        {"lowSensitivityAttenuverters":[],"voltageFlippedOutputPorts":[],"neonMode":false,"chaosMode":0,"flashPanelOnOverflow":true,"compressorLimit":0.0,"xVoltageScale":1.0,"yVoltageScale":1.0,"zVoltageScale":1.0,"oversampling":1,"turboMode":false,"memory":[{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003},{"x":0.44012499999999999,"y":-0.78126700000000004,"z":-0.27717000000000003}]}
+    - module_id: 16
+      data: |-
+        {"polyphony":2,"model":3,"easterEgg":false}
+    - module_id: 14
+      data: |-
+        {"enabledNotes":[true,false,true,true,false,false,true,true,false,true,true,false]}
+    - module_id: 4
+      data: |-
+        {"panelTheme":2,"oscM_phase":1236241608,"oscC_phase":1236241608,"osc1M_phase":3911798632,"osc1C_phase":3911798632,"osc2M_phase":2529332928,"osc2C_phase":2529332928,"osc3M_phase":3310859408,"osc3C_phase":3310859408,"osc4M_phase":167498376,"osc4C_phase":167498376,"osc5M_phase":1729782256,"osc5C_phase":1729782256,"osc6M_phase":0,"osc6C_phase":0,"osc7M_phase":0,"osc7C_phase":0,"osc8M_phase":0,"osc8C_phase":0,"osc9M_phase":0,"osc9C_phase":0,"osc10M_phase":0,"osc10C_phase":0,"osc11M_phase":0,"osc11C_phase":0,"osc12M_phase":0,"osc12C_phase":0,"osc13M_phase":0,"osc13C_phase":0,"osc14M_phase":0,"osc14C_phase":0,"osc15M_phase":0,"osc15C_phase":0,"routing":1,"planck0":0,"planck1":0,"modtype0":1,"modtype1":1,"cross":0}
+    - module_id: 7
+      data: |-
+        {"lowSensitivityAttenuverters":[],"voltageFlippedOutputPorts":[],"neonMode":false,"chaosMode":0,"flashPanelOnOverflow":true,"compressorLimit":0.0,"xVoltageScale":1.0,"yVoltageScale":1.0,"zVoltageScale":1.0,"oversampling":1,"turboMode":false,"memory":[{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999},{"x":0.78817400000000004,"y":0.52227999999999997,"z":1.2503439999999999}]}
+  suggested_samplerate: 0
+  suggested_blocksize: 0

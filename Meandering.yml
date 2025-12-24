@@ -1,0 +1,509 @@
+PatchData:
+  patch_name: Meandering
+  description: Patch Description
+  module_slugs:
+    0: '4msCompany:HubMedium'
+    1: 'Bogaudio:Bogaudio-Mix8'
+    2: 'CosineKitty-Sapphire:Galaxy'
+    3: 'Fundamental:Scope'
+    4: 'CountModula:GateDelay'
+    5: 'Bogaudio:Bogaudio-LLFO'
+    6: 'DrumKit:Gnome'
+    7: 'SeasideModular:Proteus'
+    8: 'Fundamental:Octave'
+    9: 'AudibleInstruments:Rings'
+    10: 'Befaco:Atte'
+    11: 'Fundamental:Quantizer'
+    12: 'AudibleInstruments:Rings'
+  int_cables:
+    - out:
+        module_id: 7
+        jack_id: 0
+      ins:
+        - module_id: 10
+          jack_id: 0
+        - module_id: 8
+          jack_id: 0
+      color: 13501
+    - out:
+        module_id: 1
+        jack_id: 0
+      ins:
+        - module_id: 2
+          jack_id: 0
+      color: 13501
+    - out:
+        module_id: 1
+        jack_id: 1
+      ins:
+        - module_id: 2
+          jack_id: 1
+      color: 35419
+    - out:
+        module_id: 6
+        jack_id: 2
+      ins:
+        - module_id: 4
+          jack_id: 3
+      color: 1453
+    - out:
+        module_id: 5
+        jack_id: 0
+      ins:
+        - module_id: 8
+          jack_id: 1
+      color: 61865
+    - out:
+        module_id: 6
+        jack_id: 3
+      ins:
+        - module_id: 7
+          jack_id: 8
+      color: 64934
+    - out:
+        module_id: 9
+        jack_id: 0
+      ins:
+        - module_id: 1
+          jack_id: 2
+      color: 1453
+    - out:
+        module_id: 9
+        jack_id: 1
+      ins:
+        - module_id: 1
+          jack_id: 5
+      color: 13501
+    - out:
+        module_id: 12
+        jack_id: 0
+      ins:
+        - module_id: 1
+          jack_id: 8
+      color: 61865
+    - out:
+        module_id: 12
+        jack_id: 1
+      ins:
+        - module_id: 1
+          jack_id: 11
+      color: 64934
+    - out:
+        module_id: 7
+        jack_id: 1
+      ins:
+        - module_id: 9
+          jack_id: 5
+      color: 13501
+    - out:
+        module_id: 8
+        jack_id: 0
+      ins:
+        - module_id: 9
+          jack_id: 6
+      color: 64934
+    - out:
+        module_id: 4
+        jack_id: 3
+      ins:
+        - module_id: 12
+          jack_id: 5
+      color: 35419
+    - out:
+        module_id: 11
+        jack_id: 0
+      ins:
+        - module_id: 12
+          jack_id: 6
+      color: 61865
+    - out:
+        module_id: 10
+        jack_id: 0
+      ins:
+        - module_id: 11
+          jack_id: 0
+      color: 35419
+  mapped_ins: []
+  mapped_outs: []
+  static_knobs:
+    - module_id: 3
+      param_id: 0
+      value: 0
+    - module_id: 3
+      param_id: 1
+      value: 0.27590352
+    - module_id: 3
+      param_id: 2
+      value: 0
+    - module_id: 3
+      param_id: 3
+      value: 0.7144579
+    - module_id: 3
+      param_id: 4
+      value: 0.8084335
+    - module_id: 3
+      param_id: 5
+      value: 0
+    - module_id: 3
+      param_id: 6
+      value: 0.5
+    - module_id: 3
+      param_id: 7
+      value: 1
+    - module_id: 9
+      param_id: 0
+      value: 0
+    - module_id: 9
+      param_id: 1
+      value: 0
+    - module_id: 9
+      param_id: 2
+      value: 0.5
+    - module_id: 9
+      param_id: 3
+      value: 0.079518065
+    - module_id: 9
+      param_id: 4
+      value: 0.92771095
+    - module_id: 9
+      param_id: 5
+      value: 0.6192772
+    - module_id: 9
+      param_id: 6
+      value: 0.3650602
+    - module_id: 9
+      param_id: 7
+      value: 0.5
+    - module_id: 9
+      param_id: 8
+      value: 0.5
+    - module_id: 9
+      param_id: 9
+      value: 0.5
+    - module_id: 9
+      param_id: 10
+      value: 0.5
+    - module_id: 9
+      param_id: 11
+      value: 0.5
+    - module_id: 7
+      param_id: 0
+      value: 0.7419355
+    - module_id: 7
+      param_id: 1
+      value: 0.6
+    - module_id: 7
+      param_id: 2
+      value: 0.3877551
+    - module_id: 7
+      param_id: 3
+      value: 0.4736842
+    - module_id: 7
+      param_id: 4
+      value: 0.79899496
+    - module_id: 7
+      param_id: 5
+      value: 0.2
+    - module_id: 7
+      param_id: 6
+      value: 0.2
+    - module_id: 7
+      param_id: 7
+      value: 0
+    - module_id: 7
+      param_id: 8
+      value: 0
+    - module_id: 7
+      param_id: 9
+      value: 0.5
+    - module_id: 6
+      param_id: 0
+      value: 0.5
+    - module_id: 6
+      param_id: 1
+      value: 0.5
+    - module_id: 6
+      param_id: 2
+      value: 0
+    - module_id: 6
+      param_id: 3
+      value: 0
+    - module_id: 2
+      param_id: 0
+      value: 0.5
+    - module_id: 2
+      param_id: 1
+      value: 0.5
+    - module_id: 2
+      param_id: 2
+      value: 0.64939773
+    - module_id: 2
+      param_id: 3
+      value: 0.5
+    - module_id: 2
+      param_id: 4
+      value: 0.5
+    - module_id: 2
+      param_id: 5
+      value: 0.5
+    - module_id: 2
+      param_id: 6
+      value: 0.38313252
+    - module_id: 2
+      param_id: 7
+      value: 0.5
+    - module_id: 2
+      param_id: 8
+      value: 0.2710843
+    - module_id: 2
+      param_id: 9
+      value: 0.5
+    - module_id: 2
+      param_id: 10
+      value: 0
+    - module_id: 2
+      param_id: 11
+      value: 0
+    - module_id: 2
+      param_id: 12
+      value: 0
+    - module_id: 5
+      param_id: 0
+      value: 0.19545875
+    - module_id: 5
+      param_id: 1
+      value: 1
+    - module_id: 5
+      param_id: 2
+      value: 0
+    - module_id: 5
+      param_id: 3
+      value: 0.7542168
+    - module_id: 5
+      param_id: 4
+      value: 0.62289137
+    - module_id: 8
+      param_id: 0
+      value: 0.25
+    - module_id: 10
+      param_id: 0
+      value: 1
+    - module_id: 10
+      param_id: 1
+      value: 1
+    - module_id: 10
+      param_id: 2
+      value: 1
+    - module_id: 10
+      param_id: 3
+      value: 1
+    - module_id: 10
+      param_id: 4
+      value: 0
+    - module_id: 10
+      param_id: 5
+      value: 1
+    - module_id: 10
+      param_id: 6
+      value: 1
+    - module_id: 10
+      param_id: 7
+      value: 1
+    - module_id: 12
+      param_id: 0
+      value: 0
+    - module_id: 12
+      param_id: 1
+      value: 0
+    - module_id: 12
+      param_id: 2
+      value: 0.5
+    - module_id: 12
+      param_id: 3
+      value: 0.079518065
+    - module_id: 12
+      param_id: 4
+      value: 0.92771095
+    - module_id: 12
+      param_id: 5
+      value: 0.6192772
+    - module_id: 12
+      param_id: 6
+      value: 0.3650602
+    - module_id: 12
+      param_id: 7
+      value: 0.5
+    - module_id: 12
+      param_id: 8
+      value: 0.5
+    - module_id: 12
+      param_id: 9
+      value: 0.5
+    - module_id: 12
+      param_id: 10
+      value: 0.5
+    - module_id: 12
+      param_id: 11
+      value: 0.5
+    - module_id: 1
+      param_id: 0
+      value: 0.90909094
+    - module_id: 1
+      param_id: 1
+      value: 0
+    - module_id: 1
+      param_id: 2
+      value: 0.3927711
+    - module_id: 1
+      param_id: 3
+      value: 0.90909094
+    - module_id: 1
+      param_id: 4
+      value: 0
+    - module_id: 1
+      param_id: 5
+      value: 0.6108434
+    - module_id: 1
+      param_id: 6
+      value: 0.90909094
+    - module_id: 1
+      param_id: 7
+      value: 0
+    - module_id: 1
+      param_id: 8
+      value: 0.08192766
+    - module_id: 1
+      param_id: 9
+      value: 0.90909094
+    - module_id: 1
+      param_id: 10
+      value: 0
+    - module_id: 1
+      param_id: 11
+      value: 0.8987951
+    - module_id: 1
+      param_id: 12
+      value: 0.90909094
+    - module_id: 1
+      param_id: 13
+      value: 0
+    - module_id: 1
+      param_id: 14
+      value: 0.5
+    - module_id: 1
+      param_id: 15
+      value: 0.90909094
+    - module_id: 1
+      param_id: 16
+      value: 0
+    - module_id: 1
+      param_id: 17
+      value: 0.5
+    - module_id: 1
+      param_id: 18
+      value: 0.90909094
+    - module_id: 1
+      param_id: 19
+      value: 0
+    - module_id: 1
+      param_id: 20
+      value: 0.5
+    - module_id: 1
+      param_id: 21
+      value: 0.90909094
+    - module_id: 1
+      param_id: 22
+      value: 0
+    - module_id: 1
+      param_id: 23
+      value: 0.5
+    - module_id: 1
+      param_id: 24
+      value: 0.90909094
+    - module_id: 1
+      param_id: 25
+      value: 0
+    - module_id: 1
+      param_id: 26
+      value: 0
+    - module_id: 11
+      param_id: 0
+      value: 0.5
+    - module_id: 4
+      param_id: 0
+      value: 0.5
+    - module_id: 4
+      param_id: 1
+      value: 0.620482
+    - module_id: 4
+      param_id: 2
+      value: 0.5
+    - module_id: 4
+      param_id: 3
+      value: 0.5
+    - module_id: 4
+      param_id: 4
+      value: 0
+    - module_id: 4
+      param_id: 5
+      value: 0
+    - module_id: 4
+      param_id: 6
+      value: 0
+  mapped_knobs:
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+    - name: ''
+      set: []
+  midi_maps:
+    name: ''
+    set: []
+  midi_poly_num: 1
+  midi_poly_mode: 0
+  midi_pitchwheel_range: -1
+  mapped_lights: []
+  vcvModuleStates:
+    - module_id: 9
+      data: |-
+        {"polyphony":0,"model":1,"easterEgg":false}
+    - module_id: 7
+      data: |-
+        {"moduleVersion":2,"sequence":[52,52,57,53,53,55,55,57,55,57,55,48,53,55,55,57,57,58,58,57,52,50,48,50,57,57,52,52,52,50,52,48],"restorder":[8,14,19,3,2,1,4,10,7,20,12,22,17,15,9,13,11,6,0,5,21,18,16,23,24,25,24,27,28,29,30,31],"octaveOffset":-1,"repetitionCount":10,"mutate_octave_option":0,"lock_option":0,"sequenceLength":24}
+    - module_id: 6
+      data: |-
+        {"running":true}
+    - module_id: 2
+      data: |-
+        {"lowSensitivityAttenuverters":[],"voltageFlippedOutputPorts":[],"enableStereoSplitter":false,"enableStereoMerge":false,"neonMode":false}
+    - module_id: 5
+      data: |-
+        {"offset_scale":1.0,"output_sampling":0.0,"pulse_width":-0.85106378793716431,"smoothing":0.0,"reset_on_wave_change":false}
+    - module_id: 10
+      data: |-
+        {"normalledVoltageIdx":2}
+    - module_id: 12
+      data: |-
+        {"polyphony":1,"model":1,"easterEgg":false}
+    - module_id: 1
+      data: |-
+        {"linear_cv":false,"dim_decibels":12.0,"poly_channel_offset":-1}
+    - module_id: 11
+      data: |-
+        {"enabledNotes":[true,false,true,false,true,true,false,true,false,true,true,false]}
+    - module_id: 4
+      data: |-
+        {"moduleVersion":1,"theme":0}
+  suggested_samplerate: 0
+  suggested_blocksize: 0

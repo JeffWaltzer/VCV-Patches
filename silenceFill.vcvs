@@ -1,0 +1,171 @@
+{
+  "modules": [
+    {
+      "id": 4331099674884617,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Follow",
+      "version": "2.6.47",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "rightModuleId": 3748926587746842,
+      "data": {},
+      "pos": [
+        -3,
+        2
+      ]
+    },
+    {
+      "id": 4228527864362861,
+      "plugin": "HetrickCV",
+      "model": "Comparator",
+      "version": "2.5.4",
+      "params": [
+        {
+          "value": 0.29156622290611267,
+          "id": 0
+        },
+        {
+          "value": 0.13333331048488617,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 3748926587746842,
+      "rightModuleId": 1006722335931735,
+      "pos": [
+        3,
+        2
+      ]
+    },
+    {
+      "id": 3748926587746842,
+      "plugin": "CountModula",
+      "model": "BarGraph",
+      "version": "2.5.0",
+      "params": [],
+      "leftModuleId": 4331099674884617,
+      "rightModuleId": 4228527864362861,
+      "data": {
+        "moduleVersion": 1,
+        "scale": 1,
+        "theme": 1
+      },
+      "pos": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": 1006722335931735,
+      "plugin": "Fundamental",
+      "model": "ADSR",
+      "version": "2.6.4",
+      "params": [
+        {
+          "value": 0.79399979114532471,
+          "id": 0
+        },
+        {
+          "value": 0.68200027942657471,
+          "id": 1
+        },
+        {
+          "value": 0.60200023651123047,
+          "id": 2
+        },
+        {
+          "value": 0.57399958372116089,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        }
+      ],
+      "leftModuleId": 4228527864362861,
+      "rightModuleId": 1919531805544117,
+      "pos": [
+        9,
+        2
+      ]
+    },
+    {
+      "id": 1919531805544117,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.4",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 1006722335931735,
+      "pos": [
+        18,
+        2
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 814504302107261,
+      "outputModuleId": 4331099674884617,
+      "outputId": 0,
+      "inputModuleId": 4228527864362861,
+      "inputId": 0,
+      "color": "#8b4ade"
+    },
+    {
+      "id": 1010577270382681,
+      "outputModuleId": 4228527864362861,
+      "outputId": 2,
+      "inputModuleId": 1006722335931735,
+      "inputId": 4,
+      "color": "#f3374b"
+    },
+    {
+      "id": 7100636171077272,
+      "outputModuleId": 4331099674884617,
+      "outputId": 0,
+      "inputModuleId": 3748926587746842,
+      "inputId": 0,
+      "color": "#f3374b"
+    },
+    {
+      "id": 8241382484455128,
+      "outputModuleId": 1006722335931735,
+      "outputId": 0,
+      "inputModuleId": 1919531805544117,
+      "inputId": 0,
+      "color": "#8b4ade"
+    }
+  ]
+}
